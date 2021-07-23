@@ -1,0 +1,284 @@
+Uri: https://paloma-demo-es.squarespace.com/
+File Name: C:\Downloaded Web Sites\paloma-demo-es.squarespace.com\index.htm
+Content Type: text/html
+
+Uri: https://assets.squarespace.com/universal/default-favicon.ico
+File Name: C:\Downloaded Web Sites\paloma-demo-es.squarespace.com\universal\default-favicon.ico.txt
+Content Type: text/plain
+
+Uri: https://images.squarespace-cdn.com/
+File Name: C:\Downloaded Web Sites\paloma-demo-es.squarespace.com\index-1.htm
+Content Type: 
+
+Uri: https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Poppins:wght@400
+File Name: C:\Downloaded Web Sites\paloma-demo-es.squarespace.com\css2.css
+Content Type: text/css
+
+Uri: https://assets.squarespace.com/universal/styles-compressed/signup-506cf5747cd7a76969673-min.es-419.css
+File Name: C:\Downloaded Web Sites\paloma-demo-es.squarespace.com\universal\styles-compressed\signup-506cf5747cd7a76969673-min.es-419.css
+Content Type: text/css
+
+Uri: https://static1.squarespace.com/static/versioned-site-css/5ed137fa482d145c333494d0/25/5c5a519771c10ba3470d8101/5ed137fa482d145c333494d7/1084/site.css
+File Name: C:\Downloaded Web Sites\paloma-demo-es.squarespace.com\static\versioned-site-css\5ed137fa482d145c333494d0\25\5c5a519771c10ba3470d8101\5ed137fa482d145c333494d7\1084\site.css
+Content Type: text/css
+
+Uri: https://paloma-demo-es.squarespace.com/cart
+File Name: C:\Downloaded Web Sites\paloma-demo-es.squarespace.com\cart.html
+Content Type: text/html
+
+Uri: https://paloma-demo-es.squarespace.com/about
+File Name: C:\Downloaded Web Sites\paloma-demo-es.squarespace.com\about.html
+Content Type: text/html
+
+Uri: https://paloma-demo-es.squarespace.com/episodes
+File Name: C:\Downloaded Web Sites\paloma-demo-es.squarespace.com\episodes.html
+Content Type: text/html
+
+Uri: https://paloma-demo-es.squarespace.com/blog
+File Name: C:\Downloaded Web Sites\paloma-demo-es.squarespace.com\blog.html
+Content Type: text/html
+
+Uri: https://paloma-demo-es.squarespace.com/contact
+File Name: C:\Downloaded Web Sites\paloma-demo-es.squarespace.com\contact.html
+Content Type: text/html
+
+Uri: https://www.instagram.com/squarespace/
+File Name: C:\Downloaded Web Sites\paloma-demo-es.squarespace.com\squarespace\index.htm
+Content Type: text/html
+
+Uri: https://www.youtube.com/squarespace
+File Name: C:\Downloaded Web Sites\paloma-demo-es.squarespace.com\squarespace.html
+Content Type: text/html
+
+Uri: https://www.facebook.com/squarespace
+File Name: C:\Downloaded Web Sites\paloma-demo-es.squarespace.com\squarespace-1.html
+Content Type: text/html
+
+Uri: https://paloma-demo-es.squarespace.com/donate
+File Name: C:\Downloaded Web Sites\paloma-demo-es.squarespace.com\donate.html
+Content Type: text/html
+
+Uri: https://paloma-demo-es.squarespace.com/episodes/episode-06-staycationing
+File Name: C:\Downloaded Web Sites\paloma-demo-es.squarespace.com\episodes\episode-06-staycationing.html
+Content Type: text/html
+
+Uri: https://paloma-demo-es.squarespace.com/episodes/episode-05-the-anywhere-workout
+File Name: C:\Downloaded Web Sites\paloma-demo-es.squarespace.com\episodes\episode-05-the-anywhere-workout.html
+Content Type: text/html
+
+Uri: https://paloma-demo-es.squarespace.com/episodes/episode-04-long-distance
+File Name: C:\Downloaded Web Sites\paloma-demo-es.squarespace.com\episodes\episode-04-long-distance.html
+Content Type: text/html
+
+Uri: https://paloma-demo-es.squarespace.com/episodes/episode-03-developing-a-design-eye
+File Name: C:\Downloaded Web Sites\paloma-demo-es.squarespace.com\episodes\episode-03-developing-a-design-eye.html
+Content Type: text/html
+
+Uri: https://paloma-demo-es.squarespace.com/episodes/episode-02-peak-cbd
+File Name: C:\Downloaded Web Sites\paloma-demo-es.squarespace.com\episodes\episode-02-peak-cbd.html
+Content Type: text/html
+
+Uri: https://paloma-demo-es.squarespace.com/episodes/episode-01-slow-travel
+File Name: C:\Downloaded Web Sites\paloma-demo-es.squarespace.com\episodes\episode-01-slow-travel.html
+Content Type: text/html
+
+Uri: https://use.typekit.net/ik/VuaR2HMueSO3A6-hjiI2vixwkNm8K2jbKVNU8qXrcy6fezw2fFHN4UJLFRbh52jhWDm8Z2IDFhZyF26kZ2IXFAwDwDwX5Qsqwg7IMkG0jAFu-WsoShFGZAsude80ZkoRdhXCHKoyjamTiY8Djhy8ZYmC-Ao1Oco8if37OcBDOcu8OfG0SeBCdhuyOAs8dAvlZWw0SaBujW48Sagyjh90jhNlOfG0SaBujW48Sagyjh90jhNlOfG0SaBujW48SagyjhmDjhy8ZYmC-Ao1OcFzdPUyjamTiY8Djhy8ZYmC-Ao1OcFzdPUyjamTiY8Djhy8ZYmC-Ao1Oco8ifUySkolZPUCdhFydeyzSabCSeBCdhuyOAs8dAvlZWw0SaBujW48Sagyjh90jhNlOYFUiABkZWF3jAF8OcFzdPUDSWmyScmDSeBRZWFR-emqiAUTdcS0jhNlOYiaikoyjamTiY8Djhy8ZYmC-Ao1OcFzdPUaiaS0jAFu-WsoShFGZAsude80Zko0ZWbCiaiaOcBDOcu8OYiaiko3jAUzdAIlZemldku8SkoDSWmyScmDSeBRZPoRdhXCiaiaO1FUiABkZWF3jAF8ShFGZAsude80ZkoRdhXKIcBqdh48OAiyScBldhoqOWgkdkG4fVwXIMMjgfMfH6qJv2bbMg6YJMJ7fbRkFgMMeMt6MKG4fVIXIMMjIPMfqMYv_vQhgb.js
+File Name: C:\Downloaded Web Sites\paloma-demo-es.squarespace.com\ik\VuaR2HMueSO3A6-hjiI2vixwkNm8K2jbKVNU8qXrcy6fezw2fFHN4UJLFRbh52jhWDm8Z2IDFhZyF26kZ2IXFAwDwDwX5Qsqwg7IMkG0jAFu-WsoShFGZAsude80ZkoRdhXCHKoyjamTiY8Djhy8ZYmC-Ao1Oco8if37OcBDOcu8OfG0SeBCdhuyOAs8dAvlZWw0S.js
+Content Type: text/javascript
+
+Uri: https://assets.squarespace.com/universal/scripts-compressed/polyfiller-modern-29c83a2651b2ed9d0d173-min.es-419.js
+File Name: C:\Downloaded Web Sites\paloma-demo-es.squarespace.com\universal\scripts-compressed\polyfiller-modern-29c83a2651b2ed9d0d173-min.es-419.js
+Content Type: text/javascript
+
+Uri: https://assets.squarespace.com/universal/scripts-compressed/polyfiller-legacy-819ec15522b83ef2b3871-min.es-419.js
+File Name: C:\Downloaded Web Sites\paloma-demo-es.squarespace.com\universal\scripts-compressed\polyfiller-legacy-819ec15522b83ef2b3871-min.es-419.js
+Content Type: text/javascript
+
+Uri: https://assets.squarespace.com/universal/scripts-compressed/moment-js-vendor-f4c8b32942153482c1377-min.es-419.js
+File Name: C:\Downloaded Web Sites\paloma-demo-es.squarespace.com\universal\scripts-compressed\moment-js-vendor-f4c8b32942153482c1377-min.es-419.js
+Content Type: text/javascript
+
+Uri: https://assets.squarespace.com/universal/scripts-compressed/cldr-resource-pack-10326eaab0f3c46f175bc-min.en-US.js
+File Name: C:\Downloaded Web Sites\paloma-demo-es.squarespace.com\universal\scripts-compressed\cldr-resource-pack-10326eaab0f3c46f175bc-min.en-US.js
+Content Type: text/javascript
+
+Uri: https://assets.squarespace.com/universal/scripts-compressed/cldr-resource-pack-ae3caa035fbac22b3e511-min.es-419.js
+File Name: C:\Downloaded Web Sites\paloma-demo-es.squarespace.com\universal\scripts-compressed\cldr-resource-pack-ae3caa035fbac22b3e511-min.es-419.js
+Content Type: text/javascript
+
+Uri: https://assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fea86eeb6f64b893046d0-min.es-419.js
+File Name: C:\Downloaded Web Sites\paloma-demo-es.squarespace.com\universal\scripts-compressed\common-vendors-stable-fea86eeb6f64b893046d0-min.es-419.js
+Content Type: text/javascript
+
+Uri: https://assets.squarespace.com/universal/scripts-compressed/common-vendors-c5617581fe86948d93db2-min.es-419.js
+File Name: C:\Downloaded Web Sites\paloma-demo-es.squarespace.com\universal\scripts-compressed\common-vendors-c5617581fe86948d93db2-min.es-419.js
+Content Type: text/javascript
+
+Uri: https://assets.squarespace.com/universal/scripts-compressed/common-e79b4c15cd4901b6a1770-min.es-419.js
+File Name: C:\Downloaded Web Sites\paloma-demo-es.squarespace.com\universal\scripts-compressed\common-e79b4c15cd4901b6a1770-min.es-419.js
+Content Type: text/javascript
+
+Uri: https://assets.squarespace.com/universal/scripts-compressed/signup-854cdbb9ddf5aeba4e2ae-min.es-419.js
+File Name: C:\Downloaded Web Sites\paloma-demo-es.squarespace.com\universal\scripts-compressed\signup-854cdbb9ddf5aeba4e2ae-min.es-419.js
+Content Type: text/javascript
+
+Uri: https://assets.squarespace.com/universal/scripts-compressed/performance-f30f7af9fc6b80dbf4379-min.es-419.js
+File Name: C:\Downloaded Web Sites\paloma-demo-es.squarespace.com\universal\scripts-compressed\performance-f30f7af9fc6b80dbf4379-min.es-419.js
+Content Type: text/javascript
+
+Uri: https://assets.squarespace.com/universal/scripts-compressed/error-reporter-2d30f6c1a68276a662c51-min.es-419.js
+File Name: C:\Downloaded Web Sites\paloma-demo-es.squarespace.com\universal\scripts-compressed\error-reporter-2d30f6c1a68276a662c51-min.es-419.js
+Content Type: text/javascript
+
+Uri: https://consent.trustarc.com/notice?domain=squarespace.com&c=teconsent&js=nj&noticeType=bb&text=true&pn=2&gtm=1&pcookie
+File Name: C:\Downloaded Web Sites\paloma-demo-es.squarespace.com\notice
+Content Type: text/javascript
+
+Uri: https://images.squarespace-cdn.com/content/v1/5ed137fa482d145c333494d0/1590769669254-DYAMKVT1FV0MR3YSFQZ0/image-asset.jpeg
+File Name: C:\Downloaded Web Sites\paloma-demo-es.squarespace.com\content\v1\5ed137fa482d145c333494d0\1590769669254-DYAMKVT1FV0MR3YSFQZ0\image-asset.jpeg
+Content Type: image/jpeg
+
+Uri: https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/scripts/site-bundle.831046ecbbaa4df4061e8a166b8cbd6e.js
+File Name: C:\Downloaded Web Sites\paloma-demo-es.squarespace.com\static\vta\5c5a519771c10ba3470d8101\scripts\site-bundle.831046ecbbaa4df4061e8a166b8cbd6e.js
+Content Type: application/javascript
+
+Uri: https://images.squarespace-cdn.com/content/v1/5ed137fa482d145c333494d0/1590769663092-FPVQ1XFMZ64BF9FMTZN2/06_480-copy.jpg?format=100w
+File Name: C:\Downloaded Web Sites\paloma-demo-es.squarespace.com\content\v1\5ed137fa482d145c333494d0\1590769663092-FPVQ1XFMZ64BF9FMTZN2\06_480-copy.jpg
+Content Type: image/jpeg
+
+Uri: https://images.squarespace-cdn.com/content/v1/5ed137fa482d145c333494d0/1590769663092-FPVQ1XFMZ64BF9FMTZN2/06_480-copy.jpg?format=300w
+File Name: C:\Downloaded Web Sites\paloma-demo-es.squarespace.com\content\v1\5ed137fa482d145c333494d0\1590769663092-FPVQ1XFMZ64BF9FMTZN2\06_480-copy-1.jpg
+Content Type: image/jpeg
+
+Uri: https://images.squarespace-cdn.com/content/v1/5ed137fa482d145c333494d0/1590769663092-FPVQ1XFMZ64BF9FMTZN2/06_480-copy.jpg?format=500w
+File Name: C:\Downloaded Web Sites\paloma-demo-es.squarespace.com\content\v1\5ed137fa482d145c333494d0\1590769663092-FPVQ1XFMZ64BF9FMTZN2\06_480-copy-2.jpg
+Content Type: image/jpeg
+
+Uri: https://images.squarespace-cdn.com/content/v1/5ed137fa482d145c333494d0/1590769663092-FPVQ1XFMZ64BF9FMTZN2/06_480-copy.jpg?format=750w
+File Name: C:\Downloaded Web Sites\paloma-demo-es.squarespace.com\content\v1\5ed137fa482d145c333494d0\1590769663092-FPVQ1XFMZ64BF9FMTZN2\06_480-copy-3.jpg
+Content Type: image/jpeg
+
+Uri: https://images.squarespace-cdn.com/content/v1/5ed137fa482d145c333494d0/1590769663092-FPVQ1XFMZ64BF9FMTZN2/06_480-copy.jpg?format=1000w
+File Name: C:\Downloaded Web Sites\paloma-demo-es.squarespace.com\content\v1\5ed137fa482d145c333494d0\1590769663092-FPVQ1XFMZ64BF9FMTZN2\06_480-copy-4.jpg
+Content Type: image/jpeg
+
+Uri: https://images.squarespace-cdn.com/content/v1/5ed137fa482d145c333494d0/1590769663092-FPVQ1XFMZ64BF9FMTZN2/06_480-copy.jpg?format=1500w
+File Name: C:\Downloaded Web Sites\paloma-demo-es.squarespace.com\content\v1\5ed137fa482d145c333494d0\1590769663092-FPVQ1XFMZ64BF9FMTZN2\06_480-copy-5.jpg
+Content Type: image/jpeg
+
+Uri: https://images.squarespace-cdn.com/content/v1/5ed137fa482d145c333494d0/1590769663092-FPVQ1XFMZ64BF9FMTZN2/06_480-copy.jpg?format=2500w
+File Name: C:\Downloaded Web Sites\paloma-demo-es.squarespace.com\content\v1\5ed137fa482d145c333494d0\1590769663092-FPVQ1XFMZ64BF9FMTZN2\06_480-copy-6.jpg
+Content Type: image/jpeg
+
+Uri: https://images.squarespace-cdn.com/content/v1/5ed137fa482d145c333494d0/1590769663092-FPVQ1XFMZ64BF9FMTZN2/06_480-copy.jpg?format=original
+File Name: C:\Downloaded Web Sites\paloma-demo-es.squarespace.com\content\v1\5ed137fa482d145c333494d0\1590769663092-FPVQ1XFMZ64BF9FMTZN2\06_480-copy-7.jpg
+Content Type: image/jpeg
+
+Uri: https://assets.squarespace.com/universal/scripts-compressed/commerce-checkout-645a4e65995b862e8ea8b-min.es-419.js
+File Name: C:\Downloaded Web Sites\paloma-demo-es.squarespace.com\universal\scripts-compressed\commerce-checkout-645a4e65995b862e8ea8b-min.es-419.js
+Content Type: text/javascript
+
+Uri: https://assets.squarespace.com/universal/scripts-compressed/commerce-cart-ce3f6fd3875004af72252-min.es-419.js
+File Name: C:\Downloaded Web Sites\paloma-demo-es.squarespace.com\universal\scripts-compressed\commerce-cart-ce3f6fd3875004af72252-min.es-419.js
+Content Type: text/javascript
+
+Uri: https://assets.squarespace.com/universal/scripts-compressed/error-reporter-1c9936655552c876f90f2-min.es-419.js
+File Name: C:\Downloaded Web Sites\paloma-demo-es.squarespace.com\universal\scripts-compressed\error-reporter-1c9936655552c876f90f2-min.es-419.js
+Content Type: text/javascript
+
+Uri: https://images.squarespace-cdn.com/content/v1/5ed137fa482d145c333494d0/1590769666027-NG2FXCBQI41IJYQUQ27I/fran.jpg
+File Name: C:\Downloaded Web Sites\paloma-demo-es.squarespace.com\content\v1\5ed137fa482d145c333494d0\1590769666027-NG2FXCBQI41IJYQUQ27I\fran.jpg
+Content Type: image/jpeg
+
+Uri: https://paloma-demo-es.squarespace.com/episodes?format=rss
+File Name: C:\Downloaded Web Sites\paloma-demo-es.squarespace.com\episodes.rss
+Content Type: application/rss+xml
+
+Uri: https://paloma-demo-es.squarespace.com/episodes/category/Viajes
+File Name: C:\Downloaded Web Sites\paloma-demo-es.squarespace.com\episodes\category\Viajes.html
+Content Type: text/html
+
+Uri: https://paloma-demo-es.squarespace.com/episodes/category/Salud
+File Name: C:\Downloaded Web Sites\paloma-demo-es.squarespace.com\episodes\category\Salud.html
+Content Type: text/html
+
+Uri: https://paloma-demo-es.squarespace.com/episodes/category/Relaciones
+File Name: C:\Downloaded Web Sites\paloma-demo-es.squarespace.com\episodes\category\Relaciones.html
+Content Type: text/html
+
+Uri: https://paloma-demo-es.squarespace.com/episodes/category/cultura
+File Name: C:\Downloaded Web Sites\paloma-demo-es.squarespace.com\episodes\category\cultura.html
+Content Type: text/html
+
+Uri: https://paloma-demo-es.squarespace.com/blog?format=rss
+File Name: C:\Downloaded Web Sites\paloma-demo-es.squarespace.com\blog.rss
+Content Type: application/rss+xml
+
+Uri: https://paloma-demo-es.squarespace.com/blog/backpacking-through-europe
+File Name: C:\Downloaded Web Sites\paloma-demo-es.squarespace.com\blog\backpacking-through-europe.html
+Content Type: text/html
+
+Uri: https://paloma-demo-es.squarespace.com/blog/vegan-trends-amp-fried-chicken
+File Name: C:\Downloaded Web Sites\paloma-demo-es.squarespace.com\blog\vegan-trends-amp-fried-chicken.html
+Content Type: text/html
+
+Uri: https://paloma-demo-es.squarespace.com/blog/music-affects-mood
+File Name: C:\Downloaded Web Sites\paloma-demo-es.squarespace.com\blog\music-affects-mood.html
+Content Type: text/html
+
+Uri: https://paloma-demo-es.squarespace.com/blog/blog-post-title-two-t7f56
+File Name: C:\Downloaded Web Sites\paloma-demo-es.squarespace.com\blog\blog-post-title-two-t7f56.html
+Content Type: text/html
+
+Uri: https://paloma-demo-es.squarespace.com/blog/blog-post-title-three-wt8cw
+File Name: C:\Downloaded Web Sites\paloma-demo-es.squarespace.com\blog\blog-post-title-three-wt8cw.html
+Content Type: text/html
+
+Uri: https://paloma-demo-es.squarespace.com/blog/blog-post-title-four-c3k55
+File Name: C:\Downloaded Web Sites\paloma-demo-es.squarespace.com\blog\blog-post-title-four-c3k55.html
+Content Type: text/html
+
+Uri: https://paloma-demo-es.squarespace.com/episodes?author=5d18be122ea65300019582e5
+File Name: C:\Downloaded Web Sites\paloma-demo-es.squarespace.com\episodes-1.html
+Content Type: text/html
+
+Uri: https://es.squarespace.com/
+File Name: C:\Downloaded Web Sites\paloma-demo-es.squarespace.com\index-2.htm
+Content Type: text/html
+
+Uri: https://paloma-demo-es.squarespace.com/blog?author=52182c6ae4b0564f9831ba46
+File Name: C:\Downloaded Web Sites\paloma-demo-es.squarespace.com\blog-1.html
+Content Type: text/html
+
+Uri: https://paloma-demo-es.squarespace.com/blog?author=4ea0d61ad09ad8e9c6e20880
+File Name: C:\Downloaded Web Sites\paloma-demo-es.squarespace.com\blog-2.html
+Content Type: text/html
+
+Uri: https://images.squarespace-cdn.com/content/5ed137fa482d145c333494d0/1590769659479-OFEK7YJ5XNFPLJR8SKW7/_21-copy.jpg?content-type=image%2Fjpeg
+File Name: C:\Downloaded Web Sites\paloma-demo-es.squarespace.com\content\5ed137fa482d145c333494d0\1590769659479-OFEK7YJ5XNFPLJR8SKW7\_21-copy.jpg
+Content Type: image/jpeg
+
+Uri: https://support.squarespace.com/hc/es/articles/206543197
+File Name: C:\Downloaded Web Sites\paloma-demo-es.squarespace.com\hc\es\articles\206543197.html
+Content Type: text/html
+
+Uri: https://images.squarespace-cdn.com/content/5ed137fa482d145c333494d0/1590769660183-1JQQBHOVKVEG99J0D8EH/Atlt-1-copy.jpg?content-type=image%2Fjpeg
+File Name: C:\Downloaded Web Sites\paloma-demo-es.squarespace.com\content\5ed137fa482d145c333494d0\1590769660183-1JQQBHOVKVEG99J0D8EH\Atlt-1-copy.jpg
+Content Type: image/jpeg
+
+Uri: https://images.squarespace-cdn.com/content/5ed137fa482d145c333494d0/1590769660464-U1AJXQSW2V3ZQFYWZGPW/6-copy.jpg?content-type=image%2Fjpeg
+File Name: C:\Downloaded Web Sites\paloma-demo-es.squarespace.com\content\5ed137fa482d145c333494d0\1590769660464-U1AJXQSW2V3ZQFYWZGPW\6-copy.jpg
+Content Type: image/jpeg
+
+Uri: https://images.squarespace-cdn.com/content/5ed137fa482d145c333494d0/1590769660886-VVT9FIPVF8TN8I7RO9RX/10_PAINTS_2_3118.jpg?format=1500w&content-type=image%2Fjpeg
+File Name: C:\Downloaded Web Sites\paloma-demo-es.squarespace.com\content\5ed137fa482d145c333494d0\1590769660886-VVT9FIPVF8TN8I7RO9RX\10_PAINTS_2_3118.jpg
+Content Type: image/jpeg
+
+Uri: https://images.squarespace-cdn.com/content/5ed137fa482d145c333494d0/1590769662040-OP7Z01W4SA6SNSLU6LG4/4-copy.jpg?content-type=image%2Fjpeg
+File Name: C:\Downloaded Web Sites\paloma-demo-es.squarespace.com\content\5ed137fa482d145c333494d0\1590769662040-OP7Z01W4SA6SNSLU6LG4\4-copy.jpg
+Content Type: image/jpeg
+
+Uri: https://images.squarespace-cdn.com/content/5ed137fa482d145c333494d0/1590769662388-PGGHZF0EEUHFWCXY7RHC/3-copy.jpg?content-type=image%2Fjpeg
+File Name: C:\Downloaded Web Sites\paloma-demo-es.squarespace.com\content\5ed137fa482d145c333494d0\1590769662388-PGGHZF0EEUHFWCXY7RHC\3-copy.jpg
+Content Type: image/jpeg
+
