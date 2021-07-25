@@ -24814,7 +24814,8 @@ h2 {
 }
 
 h3 {
-	color: #000
+	color: #000;
+	text-align: center;
 }
 
 h4 {
