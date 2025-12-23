@@ -5,7 +5,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Baja 28 Tours | Naturaleza y Cultura</title>
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<!-- FUENTES OPTIMIZADAS -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 
 <style>
 :root{
@@ -25,24 +28,20 @@ nav{
   position:fixed;
   top:0;
   width:100%;
-  background:rgba(255,255,255,.85);
-  backdrop-filter:blur(10px);
+  background:rgba(255,255,255,.9);
   display:flex;
   justify-content:space-between;
   align-items:center;
-  padding:15px 40px;
-  box-shadow:0 10px 30px rgba(0,0,0,.08);
+  padding:14px 40px;
+  box-shadow:0 8px 20px rgba(0,0,0,.08);
   z-index:1000;
 }
-nav img{height:45px;}
+nav img{height:42px;}
 nav ul{display:flex;gap:25px;list-style:none;}
 nav a{text-decoration:none;color:var(--oscuro);font-weight:500;}
 
-/* MENU MOBILE */
-.menu-btn{
-  display:none;
-  font-size:26px;
-  cursor:pointer;
+@media(max-width:900px){
+  nav{padding:12px 20px;}
 }
 
 /* HERO */
@@ -56,8 +55,10 @@ header{
   justify-content:center;
   text-align:center;
   color:white;
-  animation:heroZoom 18s infinite alternate ease-in-out;
-  padding:0 20px;
+}
+
+@media(min-width:900px){
+  header{animation:heroZoom 18s infinite alternate ease-in-out;}
 }
 
 @keyframes heroZoom{
@@ -65,15 +66,10 @@ header{
   to{background-size:110%;}
 }
 
-header h1{
-  font-size:3.5rem;
-}
-header p{
-  margin:20px 0;
-  font-size:1.2rem;
-}
+header h1{font-size:3.5rem;animation:fadeDown 1.2s ease;}
+header p{margin:20px 0;font-size:1.2rem;animation:fadeUp 1.4s ease;}
 header a{
-  padding:14px 30px;
+  padding:14px 32px;
   background:var(--arena);
   color:var(--oscuro);
   text-decoration:none;
@@ -87,10 +83,19 @@ header a:hover{
   transform:translateY(-3px);
 }
 
+@keyframes fadeUp{
+  from{opacity:0;transform:translateY(30px);}
+  to{opacity:1;transform:translateY(0);}
+}
+@keyframes fadeDown{
+  from{opacity:0;transform:translateY(-30px);}
+  to{opacity:1;transform:translateY(0);}
+}
+
 /* SECCIONES */
 section{padding:90px 10%;}
 .titulo{text-align:center;margin-bottom:50px;}
-.titulo h2{font-size:2.5rem;color:var(--azul);}
+.titulo h2{font-size:2.4rem;color:var(--azul);}
 .titulo p{color:#555;}
 
 /* GRID */
@@ -105,18 +110,20 @@ section{padding:90px 10%;}
   background:white;
   border-radius:20px;
   overflow:hidden;
-  box-shadow:0 15px 40px rgba(0,0,0,.12);
-  transition:.5s;
+  box-shadow:0 10px 30px rgba(0,0,0,.12);
+  transition:.4s;
 }
 .card:hover{transform:translateY(-10px);}
 .card img{
   width:100%;
   height:200px;
   object-fit:cover;
+  transition:.4s;
 }
+.card:hover img{transform:scale(1.08);}
 .card div{padding:22px;}
 
-/* EXPERIENCE */
+/* EXPERIENCIA */
 .experience{background:#f8f8f8;}
 .exp-container{
   display:grid;
@@ -124,7 +131,8 @@ section{padding:90px 10%;}
   gap:60px;
   align-items:center;
 }
-.exp-text h2{font-size:2.6rem;color:var(--azul);}
+.exp-text h2{font-size:2.6rem;color:var(--azul);margin:15px 0;}
+.exp-text p{margin-bottom:15px;line-height:1.7;}
 .exp-tag{
   display:inline-block;
   padding:6px 18px;
@@ -133,10 +141,23 @@ section{padding:90px 10%;}
   font-weight:600;
   font-size:.8rem;
 }
-.exp-image{border-radius:30px;overflow:hidden;}
-.exp-image img{width:100%;height:100%;object-fit:cover;}
+.exp-image{
+  overflow:hidden;
+  border-radius:30px;
+}
+.exp-image img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  transition:.8s;
+}
+.exp-image:hover img{transform:scale(1.07);}
 
-/* FORMULARIO */
+@media(max-width:900px){
+  .exp-container{grid-template-columns:1fr;}
+}
+
+/* FORM */
 .formulario{max-width:600px;margin:auto;}
 .formulario input,.formulario textarea{
   width:100%;
@@ -152,8 +173,9 @@ section{padding:90px 10%;}
   color:white;
   border:none;
   border-radius:30px;
-  font-size:1rem;
+  cursor:pointer;
 }
+.formulario button:hover{background:var(--terracota);}
 
 /* FOOTER */
 footer{
@@ -174,46 +196,25 @@ footer{
   border-radius:50%;
   font-size:22px;
   text-decoration:none;
+  animation:pulse 2s infinite;
+}
+@keyframes pulse{
+  0%{box-shadow:0 0 0 0 rgba(37,211,102,.7);}
+  70%{box-shadow:0 0 0 15px rgba(37,211,102,0);}
+  100%{box-shadow:0 0 0 0 rgba(37,211,102,0);}
 }
 
 /* REVEAL */
 .reveal{opacity:0;transform:translateY(40px);transition:1s;}
 .reveal.active{opacity:1;transform:translateY(0);}
-
-/* RESPONSIVE */
-@media(max-width:900px){
-  nav{padding:15px 20px;}
-  nav ul{
-    position:absolute;
-    top:70px;
-    right:20px;
-    background:white;
-    flex-direction:column;
-    gap:20px;
-    padding:25px;
-    border-radius:20px;
-    box-shadow:0 10px 30px rgba(0,0,0,.15);
-    display:none;
-  }
-  nav ul.active{display:flex;}
-  .menu-btn{display:block;}
-
-  header h1{font-size:2.4rem;}
-  header p{font-size:1rem;}
-
-  section{padding:70px 6%;}
-
-  .exp-container{grid-template-columns:1fr;}
-}
 </style>
 </head>
 
 <body>
 
 <nav>
-  <img src="https://i.ibb.co/p7H1Rc8/logo-removebg-preview.png">
-  <div class="menu-btn" onclick="menu()">☰</div>
-  <ul id="menu">
+  <img src="https://i.ibb.co/p7H1Rc8/logo-removebg-preview.png" alt="Baja 28 Tours">
+  <ul>
     <li><a href="#inicio">Inicio</a></li>
     <li><a href="#tours">Tours</a></li>
     <li><a href="#experiencia">Experiencia</a></li>
@@ -229,69 +230,80 @@ footer{
   </div>
 </header>
 
+<section class="reveal">
+  <div class="titulo">
+    <h2>Baja 28 Tours</h2>
+    <p>Experiencias auténticas en Baja California</p>
+  </div>
+  <p style="text-align:center;max-width:800px;margin:auto;">
+    Diseñamos recorridos especializados en naturaleza y cultura,
+    conectando historia, paisaje y aventura con guías locales expertos.
+  </p>
+</section>
+
 <section id="tours" class="reveal">
   <div class="titulo"><h2>Tours Destacados</h2></div>
   <div class="grid">
     <div class="card">
-      <img src="https://i.ibb.co/HLXfhwyN/senderismo.jpg">
-      <div><h3>Senderismo Cultural</h3></div>
+      <img src="https://i.ibb.co/HLXfhwyN/senderismo.jpg" loading="lazy">
+      <div><h3>Senderismo Cultural</h3><p>Rutas guiadas por el desierto.</p></div>
     </div>
     <div class="card">
-      <img src="https://i.ibb.co/5W0s4NZ6/rupestre.jpg">
-      <div><h3>Arte Rupestre</h3></div>
+      <img src="https://i.ibb.co/5W0s4NZ6/rupestre.jpg" loading="lazy">
+      <div><h3>Arte Rupestre</h3><p>Interpretación ancestral.</p></div>
     </div>
     <div class="card">
-      <img src="https://i.ibb.co/0yWKn4qh/fauna.jpg">
-      <div><h3>Naturaleza Peninsular</h3></div>
+      <img src="https://i.ibb.co/0yWKn4qh/fauna.jpg" loading="lazy">
+      <div><h3>Naturaleza Peninsular</h3><p>Fauna y paisajes únicos.</p></div>
     </div>
   </div>
 </section>
 
-<section class="experience reveal">
+<section id="experiencia" class="experience reveal">
   <div class="exp-container">
     <div class="exp-text">
       <span class="exp-tag">VIVE BAJA 28</span>
       <h2>Más que un tour,<br>una conexión real</h2>
-      <p>Explora, comprende y vive la península con respeto.</p>
+      <p>Creamos recorridos con identidad, respeto y sentido cultural.</p>
+      <p><strong>Aquí vienes a vivir la península.</strong></p>
     </div>
     <div class="exp-image">
-      <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470">
+      <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470" loading="lazy">
     </div>
   </div>
 </section>
 
 <section id="contacto" class="reveal">
-  <div class="titulo"><h2>Contacto</h2></div>
+  <div class="titulo"><h2>Contacto y Reservaciones</h2></div>
   <form class="formulario">
     <input placeholder="Nombre">
     <input placeholder="Correo">
-    <textarea placeholder="Mensaje"></textarea>
-    <button>Enviar</button>
+    <input placeholder="Teléfono">
+    <textarea rows="4" placeholder="Mensaje"></textarea>
+    <button>Enviar solicitud</button>
   </form>
 </section>
 
 <footer>
   <p>📍 Guerrero Negro, México</p>
   <p>📞 615 159 7838 | 📧 baja28.tours@gmail.com</p>
+  <p>Instagram: @baja28tours</p>
 </footer>
 
-<a class="whatsapp" href="https://wa.me/526151597838">💬</a>
+<a class="whatsapp" href="https://wa.me/526151597838" target="_blank">💬</a>
 
 <script>
-function menu(){
-  document.getElementById('menu').classList.toggle('active');
-}
-
-const reveals=document.querySelectorAll('.reveal');
-window.addEventListener('scroll',()=>{
-  reveals.forEach(r=>{
-    if(r.getBoundingClientRect().top<window.innerHeight-100){
-      r.classList.add('active');
+const observer=new IntersectionObserver(entries=>{
+  entries.forEach(entry=>{
+    if(entry.isIntersecting){
+      entry.target.classList.add('active');
+      observer.unobserve(entry.target);
     }
   });
-});
+},{threshold:0.15});
+
+document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
 </script>
 
 </body>
 </html>
-
