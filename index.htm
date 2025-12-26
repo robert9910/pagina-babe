@@ -2,211 +2,317 @@
 <html lang="es">
 <head>
 <meta charset="UTF-8">
+<title>Baja 28 Tours | Naturaleza y Cultura Peninsular</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Baja 28 Tours | Naturaleza y Cultura</title>
 
 <!-- FUENTES OPTIMIZADAS -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 
+<!-- ICONOS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 <style>
 :root{
-  --arena:#E9A23B;
-  --verde:#4F5B2A;
-  --terracota:#8B2E24;
-  --azul:#0E3A5D;
-  --oscuro:#0F172A;
-  --blanco:#ffffff;
+  --p:#1e3a8a;
+  --s:#0ea5e9;
+  --d:#020617;
+  --l:#f8fafc;
 }
 
-*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif;}
-body{background:var(--blanco);color:var(--oscuro);scroll-behavior:smooth;}
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Poppins',sans-serif;
+}
+
+body{
+  background:var(--l);
+  color:#0f172a;
+  overflow-x:hidden;
+}
 
 /* NAV */
 nav{
   position:fixed;
   top:0;
   width:100%;
-  background:rgba(255,255,255,.9);
+  background:rgba(255,255,255,.95);
   display:flex;
   justify-content:space-between;
   align-items:center;
-  padding:14px 40px;
-  box-shadow:0 8px 20px rgba(0,0,0,.08);
+  padding:12px 8%;
   z-index:1000;
 }
-nav img{height:42px;}
-nav ul{display:flex;gap:25px;list-style:none;}
-nav a{text-decoration:none;color:var(--oscuro);font-weight:500;}
 
-@media(max-width:900px){
-  nav{padding:12px 20px;}
+nav img{
+  height:42px;
+  mix-blend-mode:multiply;
+}
+
+nav ul{
+  display:flex;
+  gap:25px;
+  list-style:none;
+}
+
+nav a{
+  text-decoration:none;
+  color:#0f172a;
+  font-weight:600;
 }
 
 /* HERO */
 header{
   height:100vh;
   background:
-    linear-gradient(rgba(15,23,42,.6),rgba(15,23,42,.6)),
-    url('https://i.ibb.co/hFYKCRDs/banner.jpg') center/cover;
+    linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.4)),
+    url("https://images.unsplash.com/photo-1500530855697-b586d89ba3ee") center/cover;
   display:flex;
   align-items:center;
   justify-content:center;
   text-align:center;
-  color:white;
+  color:#fff;
 }
 
-@media(min-width:900px){
-  header{animation:heroZoom 18s infinite alternate ease-in-out;}
+.hero{
+  max-width:900px;
+  animation:fadeUp 1.5s ease;
 }
 
-@keyframes heroZoom{
-  from{background-size:100%;}
-  to{background-size:110%;}
+.hero h1{
+  font-size:3.5rem;
+  margin-bottom:20px;
 }
 
-header h1{font-size:3.5rem;animation:fadeDown 1.2s ease;}
-header p{margin:20px 0;font-size:1.2rem;animation:fadeUp 1.4s ease;}
-header a{
-  padding:14px 32px;
-  background:var(--arena);
-  color:var(--oscuro);
+.hero p{
+  font-size:1.2rem;
+  margin-bottom:35px;
+}
+
+.btn{
+  padding:14px 36px;
+  border-radius:40px;
+  background:var(--s);
+  color:#fff;
   text-decoration:none;
   font-weight:600;
-  border-radius:30px;
-  transition:.3s;
-}
-header a:hover{
-  background:var(--terracota);
-  color:white;
-  transform:translateY(-3px);
-}
-
-@keyframes fadeUp{
-  from{opacity:0;transform:translateY(30px);}
-  to{opacity:1;transform:translateY(0);}
-}
-@keyframes fadeDown{
-  from{opacity:0;transform:translateY(-30px);}
-  to{opacity:1;transform:translateY(0);}
 }
 
 /* SECCIONES */
-section{padding:90px 10%;}
-.titulo{text-align:center;margin-bottom:50px;}
-.titulo h2{font-size:2.4rem;color:var(--azul);}
-.titulo p{color:#555;}
+section{
+  padding:90px 8%;
+}
 
-/* GRID */
-.grid{
+h2{
+  text-align:center;
+  font-size:2.3rem;
+  margin-bottom:40px;
+}
+
+/* PRESENTACIÓN */
+.presentacion{
+  max-width:900px;
+  margin:auto;
+  text-align:center;
+  font-size:1.05rem;
+  line-height:1.8;
+}
+
+/* TOURS */
+.tours{
   display:grid;
   grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
-  gap:35px;
+  gap:30px;
 }
 
-/* CARDS */
 .card{
-  background:white;
+  background:#fff;
   border-radius:20px;
   overflow:hidden;
-  box-shadow:0 10px 30px rgba(0,0,0,.12);
+  box-shadow:0 15px 40px rgba(0,0,0,.12);
   transition:.4s;
 }
-.card:hover{transform:translateY(-10px);}
+
+.card:hover{
+  transform:translateY(-10px);
+}
+
 .card img{
   width:100%;
   height:200px;
   object-fit:cover;
-  transition:.4s;
 }
-.card:hover img{transform:scale(1.08);}
-.card div{padding:22px;}
 
-/* EXPERIENCIA */
-.experience{background:#f8f8f8;}
-.exp-container{
+.card div{
+  padding:20px;
+}
+
+/* GALERÍA */
+#galeria{
+  padding:90px 10%;
+  background:#f8fafc;
+}
+
+.carousel{
+  position:relative;
+  max-width:900px;
+  margin:auto;
+  overflow:hidden;
+  border-radius:25px;
+  box-shadow:0 20px 50px rgba(0,0,0,.15);
+}
+
+.carousel-track{
+  display:flex;
+  transition:transform .8s ease-in-out;
+}
+
+.carousel-track img{
+  width:100%;
+  flex-shrink:0;
+  height:420px;
+  object-fit:cover;
+}
+
+/* Móvil */
+@media(max-width:768px){
+  .carousel-track img{
+    height:260px;
+  }
+}
+
+
+/* CONTACTO */
+.contacto{
   display:grid;
-  grid-template-columns:1fr 1fr;
-  gap:60px;
+  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:40px;
   align-items:center;
 }
-.exp-text h2{font-size:2.6rem;color:var(--azul);margin:15px 0;}
-.exp-text p{margin-bottom:15px;line-height:1.7;}
-.exp-tag{
-  display:inline-block;
-  padding:6px 18px;
-  background:var(--arena);
-  border-radius:30px;
+
+.contacto a{
+  color:var(--p);
+  text-decoration:none;
   font-weight:600;
-  font-size:.8rem;
 }
-.exp-image{
+
+/* MAPA */
+.mapa{
+  border-radius:20px;
   overflow:hidden;
-  border-radius:30px;
+  box-shadow:0 15px 40px rgba(0,0,0,.15);
 }
-.exp-image img{
+
+.mapa iframe{
+  width:100%;
+  height:400px;
+  border:0;
+}
+
+.ubicacion{
+  padding:90px 10%;
+  background:#f8fafc;
+  text-align:center;
+}
+
+.ubicacion h2{
+  font-size:2.4rem;
+  color:#0E3A5D;
+}
+
+.mapa{
+  position:relative;
+  width:100%;
+  height:0;
+  padding-bottom:56.25%; /* 16:9 */
+  margin:30px auto;
+  border-radius:20px;
+  overflow:hidden;
+  box-shadow:0 15px 40px rgba(0,0,0,.15);
+}
+
+.mapa iframe{
+  position:absolute;
+  top:0;
+  left:0;
   width:100%;
   height:100%;
-  object-fit:cover;
-  transition:.8s;
-}
-.exp-image:hover img{transform:scale(1.07);}
-
-@media(max-width:900px){
-  .exp-container{grid-template-columns:1fr;}
+  border:0;
 }
 
-/* FORM */
-.formulario{max-width:600px;margin:auto;}
-.formulario input,.formulario textarea{
-  width:100%;
-  padding:15px;
-  margin-bottom:15px;
-  border-radius:12px;
-  border:1px solid #ccc;
-}
-.formulario button{
-  width:100%;
-  padding:15px;
-  background:var(--azul);
+.btn-maps{
+  display:inline-block;
+  margin-top:20px;
+  padding:12px 28px;
+  background:#0ea5e9;
   color:white;
-  border:none;
   border-radius:30px;
-  cursor:pointer;
+  text-decoration:none;
+  font-weight:600;
+  transition:.3s;
 }
-.formulario button:hover{background:var(--terracota);}
+
+.btn-maps:hover{
+  background:#0369a1;
+}
+
 
 /* FOOTER */
 footer{
-  background:var(--oscuro);
-  color:white;
-  padding:40px 10%;
+  background:#020617;
+  color:#fff;
   text-align:center;
+  padding:40px 10px;
+}
+
+.redes{
+  margin-bottom:15px;
+}
+
+.redes a{
+  color:#fff;
+  margin:0 10px;
+  font-size:1.4rem;
 }
 
 /* WHATSAPP */
 .whatsapp{
   position:fixed;
-  bottom:20px;
-  right:20px;
+  bottom:25px;
+  right:25px;
   background:#25D366;
-  color:white;
-  padding:15px 18px;
+  color:#fff;
+  width:60px;
+  height:60px;
   border-radius:50%;
-  font-size:22px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:2rem;
+  z-index:999;
   text-decoration:none;
-  animation:pulse 2s infinite;
-}
-@keyframes pulse{
-  0%{box-shadow:0 0 0 0 rgba(37,211,102,.7);}
-  70%{box-shadow:0 0 0 15px rgba(37,211,102,0);}
-  100%{box-shadow:0 0 0 0 rgba(37,211,102,0);}
+  box-shadow:0 10px 30px rgba(0,0,0,.3);
 }
 
-/* REVEAL */
-.reveal{opacity:0;transform:translateY(40px);transition:1s;}
-.reveal.active{opacity:1;transform:translateY(0);}
+/* ANIMACIONES */
+@keyframes fadeUp{
+  from{opacity:0;transform:translateY(30px);}
+  to{opacity:1;transform:translateY(0);}
+}
+
+@keyframes fade{
+  from{opacity:0;}
+  to{opacity:1;}
+}
+
+/* RESPONSIVE */
+@media(max-width:768px){
+  .hero h1{font-size:2.3rem;}
+  header{background-attachment:scroll;}
+}
 </style>
 </head>
 
@@ -217,92 +323,128 @@ footer{
   <ul>
     <li><a href="#inicio">Inicio</a></li>
     <li><a href="#tours">Tours</a></li>
-    <li><a href="#experiencia">Experiencia</a></li>
+    <li><a href="#galeria">Galería</a></li>
     <li><a href="#contacto">Contacto</a></li>
   </ul>
 </nav>
 
 <header id="inicio">
-  <div>
-    <h1>Explora la Península</h1>
-    <p>Senderismo cultural, naturaleza y arte rupestre</p>
-    <a href="#contacto">Reserva tu experiencia</a>
+  <div class="hero">
+    <h1>Baja 28 Tours</h1>
+    <p>Tours especializados en naturaleza, senderismo cultural e interpretación de arte rupestre peninsular.</p>
+    <a href="#contacto" class="btn">Reserva tu experiencia</a>
   </div>
 </header>
 
-<section class="reveal">
+<section>
+  <h2>Quiénes somos</h2>
+  <div class="presentacion">
+    Baja 28 es una empresa de turismo especializada en experiencias de naturaleza y cultura en la península de Baja California. Nuestro enfoque se basa en el acompañamiento personalizado, el respeto al entorno natural y la interpretación cultural del territorio, brindando recorridos auténticos que conectan a las personas con la historia, el paisaje y la identidad de la región.
+  </div>
+</section>
+
+<section id="tours">
+  <h2>Nuestros tours</h2>
+
+  <div class="tours">
+
+    <div class="card">
+      <img src="https://i.ibb.co/HLXfhwyN/senderismo.jpg" alt="Senderismo" loading="lazy">
+      <div>
+        <h3>Senderismo en la península</h3>
+        <p>Recorridos guiados por paisajes naturales únicos.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://i.ibb.co/5W0s4NZ6/rupestre.jpg" alt="Arte rupestre" loading="lazy">
+      <div>
+        <h3>Arte rupestre</h3>
+        <p>Interpretación cultural de pinturas y grabados ancestrales.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://i.ibb.co/0yWKn4qh/fauna.jpg" alt="Fauna del desierto" loading="lazy">
+      <div>
+        <h3>Experiencias naturales</h3>
+        <p>Contacto directo con la flora y fauna del desierto.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<section id="galeria">
+<section id="galeria">
   <div class="titulo">
-    <h2>Baja 28 Tours</h2>
-    <p>Experiencias auténticas en Baja California</p>
+    <h2>Galería</h2>
   </div>
-  <p style="text-align:center;max-width:800px;margin:auto;">
-    Diseñamos recorridos especializados en naturaleza y cultura,
-    conectando historia, paisaje y aventura con guías locales expertos.
-  </p>
-</section>
 
-<section id="tours" class="reveal">
-  <div class="titulo"><h2>Tours Destacados</h2></div>
-  <div class="grid">
-    <div class="card">
-      <img src="https://i.ibb.co/HLXfhwyN/senderismo.jpg" loading="lazy">
-      <div><h3>Senderismo Cultural</h3><p>Rutas guiadas por el desierto.</p></div>
-    </div>
-    <div class="card">
-      <img src="https://i.ibb.co/5W0s4NZ6/rupestre.jpg" loading="lazy">
-      <div><h3>Arte Rupestre</h3><p>Interpretación ancestral.</p></div>
-    </div>
-    <div class="card">
-      <img src="https://i.ibb.co/0yWKn4qh/fauna.jpg" loading="lazy">
-      <div><h3>Naturaleza Peninsular</h3><p>Fauna y paisajes únicos.</p></div>
+  <div class="carousel">
+    <div class="carousel-track">
+
+      <img src="https://i.ibb.co/PvyXHRpH/482959894-631286872995457-1142919901634652898-n.jpg" alt="Experiencia Baja 28" loading="lazy">
+      <img src="https://i.ibb.co/TDbs4Xnc/482238536-633502172773927-8263944117403942601-n.jpg" alt="Senderismo cultural" loading="lazy">
+      <img src="https://i.ibb.co/ynrqr1CY/482246616-633502106107267-7101333148128864803-n.jpg" alt="Arte rupestre" loading="lazy">
+      <img src="https://i.ibb.co/FLyDG3FZ/485084853-633513126106165-2163040645934652356-n.jpg" alt="Naturaleza peninsular" loading="lazy">
+      <img src="https://i.ibb.co/m51FxX43/484175159-633734929417318-866505549945216159-n.jpg" alt="Exploración guiada" loading="lazy">
+      <img src="https://i.ibb.co/dRwc0rQ/486325088-641705208620290-6905030827208949506-n.jpg" alt="Paisajes del desierto" loading="lazy">
+      <img src="https://i.ibb.co/93fvBh9n/589517754-834931385964337-7242976236171526935-n.jpg" alt="Cultura y territorio" loading="lazy">
+      <img src="https://i.ibb.co/Pv8fP8kz/580479918-820176380773171-9129059569000272360-n.jpg" alt="Rutas en Baja" loading="lazy">
+      <img src="https://i.ibb.co/JRRBNRPq/482345997-630067723117372-1577725211318242881-n.jpg" alt="Experiencias Baja 28" loading="lazy">
+
     </div>
   </div>
 </section>
 
-<section id="experiencia" class="experience reveal">
-  <div class="exp-container">
-    <div class="exp-text">
-      <span class="exp-tag">VIVE BAJA 28</span>
-      <h2>Más que un tour,<br>una conexión real</h2>
-      <p>Creamos recorridos con identidad, respeto y sentido cultural.</p>
-      <p><strong>Aquí vienes a vivir la península.</strong></p>
-    </div>
-    <div class="exp-image">
-      <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470" loading="lazy">
-    </div>
+
+
+<section class="ubicacion" id="ubicacion">
+  <h2>Nuestra ubicación</h2>
+
+  <div class="mapa">
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3523.8478451302285!2d-114.03863862727212!3d27.967945713954535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8133f9005cb4e743%3A0x3f0fab086049e713!2sColectivo%20La%20Ballena!5e0!3m2!1ses-419!2smx!4v1766729535021!5m2!1ses-419!2smx"
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+      allowfullscreen>
+    </iframe>
   </div>
+
+  <a class="btn-maps" href="https://share.google/YwZFg5TUtGdjAMgNW" target="_blank">
+    Abrir en Google Maps
+  </a>
 </section>
 
-<section id="contacto" class="reveal">
-  <div class="titulo"><h2>Contacto y Reservaciones</h2></div>
-  <form class="formulario">
-    <input placeholder="Nombre">
-    <input placeholder="Correo">
-    <input placeholder="Teléfono">
-    <textarea rows="4" placeholder="Mensaje"></textarea>
-    <button>Enviar solicitud</button>
-  </form>
-</section>
 
 <footer>
-  <p>📍 Guerrero Negro, México</p>
-  <p>📞 615 159 7838 | 📧 baja28.tours@gmail.com</p>
-  <p>Instagram: @baja28tours</p>
+  <div class="redes">
+    <a href="https://www.facebook.com/KARYLUTOURS" target="_blank"><i class="fab fa-facebook"></i></a>
+    <a href="https://instagram.com/baja28tours" target="_blank"><i class="fab fa-instagram"></i></a>
+  </div>
+  © 2025 Baja 28 Tours · Experiencias auténticas
 </footer>
 
-<a class="whatsapp" href="https://wa.me/526151597838" target="_blank">💬</a>
+<a class="whatsapp" href="https://wa.me/526151597838" target="_blank">
+  <i class="fab fa-whatsapp"></i>
+</a>
 
 <script>
-const observer=new IntersectionObserver(entries=>{
-  entries.forEach(entry=>{
-    if(entry.isIntersecting){
-      entry.target.classList.add('active');
-      observer.unobserve(entry.target);
-    }
-  });
-},{threshold:0.15});
+const track = document.querySelector('.carousel-track');
+const slides = Array.from(track.children);
+let index = 0;
 
-document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
+function moveCarousel(){
+  index++;
+  if(index >= slides.length){
+    index = 0;
+  }
+  track.style.transform = `translateX(-${index * 100}%)`;
+}
+
+setInterval(moveCarousel, 3500);
 </script>
 
 </body>
